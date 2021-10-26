@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{4D67A9F8-1878-4ED8-ADBE-86025C306EF5}"
+	ProjectSection(SolutionItems) = preProject
+		Uppgift2.css = Uppgift2.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D7F789D-1F19-40E2-AE52-E983529EB4E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uppgift1", "Uppgift1", "{E3FD726D-F73C-40B9-B9AF-D9F06636C307}"
+	ProjectSection(SolutionItems) = preProject
+		login.html = login.html
+		Uppgift1.html = Uppgift1.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uppgift2", "Uppgift2", "{876EC485-96FE-4234-9BD0-F875B1C14FF0}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D67A9F8-1878-4ED8-ADBE-86025C306EF5} = {876EC485-96FE-4234-9BD0-F875B1C14FF0}
+		{E3FD726D-F73C-40B9-B9AF-D9F06636C307} = {0D7F789D-1F19-40E2-AE52-E983529EB4E4}
+		{876EC485-96FE-4234-9BD0-F875B1C14FF0} = {0D7F789D-1F19-40E2-AE52-E983529EB4E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B86211DC-9447-42A7-BB61-6BFB5C250E37}
+	EndGlobalSection
+EndGlobal
