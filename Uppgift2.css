@@ -7,12 +7,12 @@
 body {
     width: 1024px;
     margin: 0;
-    background-color: lightblue;
+    background-color: lightgray;
     font-family: Helvetica, sans-serif;
 }
 
 header {
-    background-color: lightpink;
+    background-color: orchid;
     display: table; 
     table-layout: auto;    
     width: 100%;
@@ -23,7 +23,7 @@ header {
 
     header h1 {
         display: table-cell;
-        text-align: center;
+        text-align: end;
         
         padding: 0 0 0 20px;
         
@@ -48,27 +48,28 @@ header {
                     align-self: center;
                     justify-self: center;
                     align-content: center;
-                    background-color: aquamarine;
+                    
         
         
             }
                 header nav ul li a {
-                text-align: center;
-                height: 20px;
-                width: 200px;
-                padding: 15px 10px 15px 10px;
-            
-                display: table-cell;
-                text-align: center;
-
+                    text-align: center;
+                    height: 20px;
+                    width: 200px;
+                    padding: 15px 10px 15px 10px;
+                    background-color: aquamarine;
+                    border: 1px solid mediumaquamarine;
+                    display: table-cell;
+                    text-align: center;
                 }
 
     header a {
-        display: table-cell; 
+        display: table-cell;
+        padding: 0 0 0;
         text-align: center;
-        
-        
-        
+        width: 150px;
+        background-color: skyblue;
+        border: 1px solid dodgerblue;
     }
 
 
@@ -77,10 +78,10 @@ header {
 
 
 main {
-    width: 100%;
+    
     display: grid;
-    margin: 0px 0px 0px 0px; 
-    background-color: lightgray;
+    margin: 0px 0px 0px 0px;
+    background-color: lightyellow;
 }
 
 h2 {
@@ -98,9 +99,9 @@ p {
 article {
     grid-area: 3 / auto / auto / auto;
     width: 85%;
-    background-color: deepskyblue;
+    background-color: skyblue;
     padding: 0px 10px 10px 20px;
-    margin: 15px;
+    margin: 20px;
 }
     article p {
         width: 95%;
@@ -113,15 +114,34 @@ article {
         }
 
 aside {
-    padding: inherit;
-    background-color: lightcoral;
+    padding: 0 0 0 0;
+    background-color: pink;
     grid-area: 1/3/span 3/ span 1;
     width: 300px;
+    margin: 0 0 0 0px;
+    text-align: center;
 }
-aside p{
+    aside ul {
+        display: table;
+        width: 150px;
+        
+    }
+    aside ul h3 {
+        text-align: left;
+        padding: 0 0 0 60px;
+    }
+        aside ul li {
+            display: table;
+            border: 1px solid purple;
+            text-align: left;
+            width: 200px;
+        }
 
+        aside ol li {
+            border: none;
+            padding: 0px;
+        }
 
-}
 
 footer {
     position: relative;
@@ -131,5 +151,39 @@ footer {
     background: #6cf;
     text-align: center;
     padding-top : 10px;
+    
+}
+
+span {
+    align-self: center;
+    margin: auto;
+}
+
+div {
+    align-self: center;
+    margin: auto;
+    padding: 20px;
+}
+div h2 {
+    text-transform:uppercase;
+    margin: 20px;
+}
+
+
+form {
+    border-radius: 10px;
+    border: thin inset lightblue;
+    padding: 20px;
+    margin: 20px;
+
+}
+input[type=submit] {
+    border-radius: 5px;
+    background-color: lightgreen;
+    
+}
+input[type=reset] {
+    border-radius: 5px;
+    background-color: pink;
     
 }
