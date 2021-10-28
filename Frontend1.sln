@@ -12,11 +12,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uppgift1", "Uppgift1", "{E3FD726D-F73C-40B9-B9AF-D9F06636C307}"
 	ProjectSection(SolutionItems) = preProject
-		login.html = login.html
+		login1.html = login1.html
 		Uppgift1.html = Uppgift1.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uppgift2", "Uppgift2", "{876EC485-96FE-4234-9BD0-F875B1C14FF0}"
+	ProjectSection(SolutionItems) = preProject
+		login2.html = login2.html
+		Uppgift2.html = Uppgift2.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
